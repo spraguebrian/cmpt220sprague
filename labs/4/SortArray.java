@@ -13,7 +13,7 @@ public class SortArray {
 		}
 		int temp = 0;
 		for(int i = 0; i < numberCount; i++) {
-			for(int j = 1; j < numberCount; j++) {
+			for(int j = i + 1; j < numberCount; j++) { // JA
 				if(numbers[i] > numbers[j]) {
 					temp = numbers[i];
 					numbers[i] = numbers[j];
