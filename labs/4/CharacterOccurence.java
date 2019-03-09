@@ -36,7 +36,7 @@ public class CharacterOccurence {
     { 
         Scanner sc = new Scanner(System.in); 
         System.out.println("Enter your string: "); 
-        String str = sc.next();
+        String str = sc.next(); // JA: Need to use nextLine() to read the complete string
         getOccuringChar(str); 
     } 
 }

@@ -11,6 +11,7 @@ public class RemoveDuplicates {
 		for(int i = 0; i < numbers.length; i++) {
 			numbers[i] = input.nextInt();
 		}
+		// JA: You had to shift the elements when removing
 		for(int i = 0; i < numbers.length; i++) {
 			for(int j = 1; j < numbers.length; j++) {
 				if(numbers[i] == numbers[j]) {
