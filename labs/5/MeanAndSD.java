@@ -30,7 +30,7 @@ public class MeanAndSD {
 			temp = Math.pow(temp, 2);
 			total += temp;
 		}
-		newMean = total / 10.0;
+		newMean = total / 9.0; // JA
 		sd = Math.sqrt(newMean);
 		System.out.println("The standard deviation is " + sd);
 		return sd;
