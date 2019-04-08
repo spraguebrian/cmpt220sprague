@@ -8,6 +8,7 @@ public class TestCourse {
 		c1.addStudent("Mike");
 		c1.dropStudent("John");
 		c1.getStudents();
+		// JA: Print students?
 
 	}
 
