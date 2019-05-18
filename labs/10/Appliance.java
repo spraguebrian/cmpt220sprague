@@ -31,6 +31,7 @@ public class Appliance implements Comparable{
 	}
 	@Override
 	public int compareTo(Object o) {
+		// JA: You should had implemented compareTo here
 		return 0;
 	}
 
